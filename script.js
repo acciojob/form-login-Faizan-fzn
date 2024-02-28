@@ -14,7 +14,7 @@ function getFormvalue() {
     // Checking if both first name and last name are provided
 	if(firstName && lastName){
     // Displaying the first and last name using alert	
-	alert("First Name: " + firstName + " Last Name: " + lastName);
+	alert(" " + firstName + " " + lastName);
 	} else {
      // Displaying an alert if either first name or last name is missing
 	alert("Please enter both First Name and Last Name.");
